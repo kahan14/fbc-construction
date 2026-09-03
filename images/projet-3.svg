@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img" aria-label="Maison individuelle contemporaine">
+  <defs>
+    <linearGradient id="p3ciel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d3dcf0"/>
+      <stop offset="100%" stop-color="#eef1f8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#p3ciel)"/>
+  <circle cx="140" cy="120" r="52" fill="#ffffff" opacity=".5"/>
+
+  <!-- volume bas en enduit clair -->
+  <rect x="90" y="290" width="330" height="190" fill="#f6f7fb"/>
+  <rect x="90" y="290" width="330" height="12" fill="#ffffff"/>
+  <rect x="130" y="330" width="150" height="110" fill="#93a2c8"/>
+  <g stroke="#ffffff" stroke-width="4">
+    <line x1="205" y1="330" x2="205" y2="440"/>
+  </g>
+  <rect x="320" y="330" width="60" height="110" fill="#6b5a4a" opacity=".7"/>
+
+  <!-- volume haut bardage sombre -->
+  <rect x="420" y="200" width="270" height="280" fill="#3b4a70"/>
+  <g fill="#ffffff" opacity=".2">
+    <rect x="420" y="230" width="270" height="6"/>
+    <rect x="420" y="270" width="270" height="6"/>
+    <rect x="420" y="310" width="270" height="6"/>
+    <rect x="420" y="350" width="270" height="6"/>
+    <rect x="420" y="390" width="270" height="6"/>
+  </g>
+  <rect x="470" y="250" width="110" height="90" fill="#dbe1f2"/>
+  <rect x="610" y="250" width="50" height="90" fill="#dbe1f2" opacity=".8"/>
+  <rect x="420" y="188" width="270" height="14" fill="#ffffff"/>
+
+  <!-- terrasse -->
+  <rect x="90" y="470" width="600" height="14" fill="#d9b48f"/>
+
+  <!-- sol + jardin -->
+  <rect x="0" y="484" width="800" height="76" fill="#e4efe8"/>
+  <g fill="#7fae8e">
+    <circle cx="730" cy="450" r="34"/>
+    <circle cx="50" cy="456" r="28"/>
+    <ellipse cx="400" cy="510" rx="120" ry="16" opacity=".55"/>
+  </g>
+  <g fill="#6b5a4a">
+    <rect x="726" y="450" width="8" height="34"/>
+    <rect x="46" y="456" width="8" height="28"/>
+  </g>
+</svg>

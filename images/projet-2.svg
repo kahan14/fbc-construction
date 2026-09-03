@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img" aria-label="Bâtiment tertiaire à façade vitrée">
+  <defs>
+    <linearGradient id="p2ciel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd8ee"/>
+      <stop offset="100%" stop-color="#eef1f8"/>
+    </linearGradient>
+    <linearGradient id="p2verre" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#98a6cc"/>
+      <stop offset="100%" stop-color="#5a6a99"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#p2ciel)"/>
+  <g fill="#ffffff" opacity=".55">
+    <ellipse cx="180" cy="98" rx="90" ry="26"/>
+    <ellipse cx="240" cy="86" rx="58" ry="20"/>
+  </g>
+
+  <!-- volume vitré principal -->
+  <rect x="150" y="130" width="420" height="350" fill="url(#p2verre)"/>
+  <g stroke="#ffffff" stroke-width="4" opacity=".65">
+    <line x1="150" y1="200" x2="570" y2="200"/>
+    <line x1="150" y1="270" x2="570" y2="270"/>
+    <line x1="150" y1="340" x2="570" y2="340"/>
+    <line x1="150" y1="410" x2="570" y2="410"/>
+    <line x1="255" y1="130" x2="255" y2="480"/>
+    <line x1="360" y1="130" x2="360" y2="480"/>
+    <line x1="465" y1="130" x2="465" y2="480"/>
+  </g>
+  <rect x="150" y="130" width="420" height="16" fill="#ffffff" opacity=".85"/>
+
+  <!-- brise-soleil jaune -->
+  <g fill="#f7e64b" opacity=".9">
+    <rect x="570" y="180" width="90" height="12"/>
+    <rect x="570" y="250" width="90" height="12"/>
+    <rect x="570" y="320" width="90" height="12"/>
+  </g>
+  <rect x="570" y="170" width="10" height="310" fill="#d0d7e8"/>
+
+  <!-- auvent d'entrée -->
+  <rect x="230" y="430" width="200" height="12" fill="#ffffff"/>
+  <rect x="288" y="442" width="84" height="38" fill="#2c3a5c" opacity=".35"/>
+
+  <!-- sol -->
+  <rect x="0" y="478" width="800" height="82" fill="#e7eaf4"/>
+  <rect x="0" y="478" width="800" height="6" fill="#d6dcea"/>
+  <g fill="#2c3a5c" opacity=".45">
+    <circle cx="620" cy="450" r="9"/>
+    <rect x="614" y="460" width="12" height="22" rx="5"/>
+  </g>
+</svg>

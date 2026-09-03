@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img" aria-label="Résidence collective contemporaine">
+  <defs>
+    <linearGradient id="p1ciel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d3dcf0"/>
+      <stop offset="100%" stop-color="#eef1f8"/>
+    </linearGradient>
+    <pattern id="p1fen" width="46" height="40" patternUnits="userSpaceOnUse">
+      <rect x="8" y="8" width="30" height="22" fill="#2c3a5c" opacity=".16"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#p1ciel)"/>
+  <circle cx="660" cy="110" r="60" fill="#ffffff" opacity=".5"/>
+
+  <!-- corps principal -->
+  <rect x="110" y="150" width="300" height="330" fill="#f6f7fb"/>
+  <rect x="110" y="150" width="300" height="330" fill="url(#p1fen)"/>
+  <rect x="110" y="150" width="300" height="14" fill="#ffffff"/>
+
+  <!-- volume bois décalé -->
+  <rect x="410" y="220" width="240" height="260" fill="#d9b48f"/>
+  <g fill="#ffffff" opacity=".55">
+    <rect x="436" y="252" width="66" height="52"/>
+    <rect x="520" y="252" width="66" height="52"/>
+    <rect x="436" y="336" width="66" height="52"/>
+    <rect x="520" y="336" width="66" height="52"/>
+  </g>
+
+  <!-- balcons -->
+  <g fill="#a3aecd">
+    <rect x="110" y="236" width="300" height="9"/>
+    <rect x="110" y="330" width="300" height="9"/>
+    <rect x="110" y="424" width="300" height="9"/>
+  </g>
+
+  <!-- sol + végétation -->
+  <rect x="0" y="478" width="800" height="82" fill="#e7eaf4"/>
+  <rect x="0" y="478" width="800" height="6" fill="#d6dcea"/>
+  <g fill="#7fae8e">
+    <circle cx="700" cy="452" r="30"/>
+    <circle cx="66" cy="458" r="26"/>
+  </g>
+  <g fill="#6b5a4a">
+    <rect x="696" y="452" width="7" height="30"/>
+    <rect x="62" y="458" width="7" height="24"/>
+  </g>
+</svg>

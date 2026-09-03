@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img" aria-label="Photo à venir">
+  <rect width="800" height="560" fill="#e2e7f2"/>
+
+  <!-- marque F.B.C en filigrane -->
+  <g opacity=".35" transform="translate(368 210) scale(1.05)">
+    <circle cx="32" cy="32" r="23" fill="#f7e64b"/>
+    <g fill="#3b4a70">
+      <rect x="41" y="15" width="6" height="12" rx="1"/>
+      <path d="M32 12 L57 33 H50 L32 19 L14 33 H7 Z"/>
+      <rect x="16" y="31" width="32" height="21"/>
+    </g>
+    <rect x="28" y="38" width="8" height="14" rx="1" fill="#f7e64b"/>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="19" font-weight="600" letter-spacing="3"
+        fill="#808da9">PHOTO À VENIR</text>
+</svg>
