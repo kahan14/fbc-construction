@@ -1,0 +1,5 @@
+# FBC France Bâtiment Construction
+User-agent: *
+Allow: /
+
+Sitemap: https://fbc-construction.fr/sitemap.xml
