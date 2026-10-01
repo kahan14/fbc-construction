@@ -23,7 +23,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="images/logo.svg">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=5">
 
   <!-- Données structurées : permettent à Google d'afficher l'entreprise,
        son adresse et son téléphone directement dans les résultats. -->
@@ -106,10 +106,13 @@
 
     <!-- ── Hero en couverture plein cadre ──────────────────── -->
     <section class="hero">
-      <img class="hero-fond"
-           src="images/couverture.jpg"
-           alt="Pignon d'une maison réalisée par FBC : enduit ton pierre, encadrement en brique et couverture ardoise"
-           width="2400" height="1290" fetchpriority="high">
+      <picture class="hero-fond">
+        <!-- cadrage portrait sur téléphone, panoramique sur ordinateur -->
+        <source media="(max-width: 760px)" srcset="images/couverture-mobile.jpg" width="1200" height="1600">
+        <img src="images/couverture.jpg"
+             alt="Maison réalisée par FBC : enduit ton pierre, encadrements en brique et couverture ardoise"
+             width="2400" height="1290" fetchpriority="high">
+      </picture>
 
       <div class="hero-contenu">
         <p class="eyebrow">Constructeur de maisons individuelles · Soliers (14)</p>
