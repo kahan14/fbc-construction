@@ -855,3 +855,105 @@ a { color: inherit; }
 
 @media (max-width: 900px) { .grid-articles { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 620px) { .grid-articles { grid-template-columns: 1fr; } }
+
+/* ── Bandeau de références ───────────────────────────────── */
+
+.references {
+  max-width: 52rem;
+  margin: 4rem auto 0;
+  padding: 2rem 2.25rem;
+  background: var(--blanc);
+  border: 1px solid var(--bord);
+  border-left: 3px solid var(--jaune);
+  border-radius: var(--rayon);
+  text-align: left;
+}
+
+.references-titre {
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gris);
+  margin-bottom: .75rem;
+}
+
+.references-texte strong {
+  color: var(--encre);
+  font-weight: 600;
+}
+
+@media (max-width: 620px) {
+  .references { padding: 1.5rem 1.25rem; }
+}
+
+/* ── Bandeau de confiance ────────────────────────────────── */
+
+.confiance {
+  background: var(--ciel-fonce);
+  border-top: 1px solid var(--bord);
+  border-bottom: 1px solid var(--bord);
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+
+.confiance-label {
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+.confiance-noms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem 3.5rem;
+  list-style: none;
+  margin: 1.75rem 0 1.5rem;
+  padding: 0;
+}
+
+.confiance-noms li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .3rem;
+}
+
+.confiance-noms .nom {
+  font-size: clamp(1.4rem, 3.2vw, 2.1rem);
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--encre);
+  line-height: 1;
+}
+
+.confiance-noms .periode {
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+.separateur {
+  width: 1px;
+  height: 2.4rem;
+  background: var(--bord);
+}
+
+.confiance-texte {
+  max-width: 44rem;
+  margin: 0 auto;
+  font-size: .98rem;
+  color: var(--texte);
+}
+
+@media (max-width: 620px) {
+  .confiance { padding: 2.5rem 1.25rem; }
+  .confiance-noms { gap: 1.5rem; }
+  .separateur { display: none; }
+}
